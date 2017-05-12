@@ -60,8 +60,8 @@ Search in OpenLDAP :
 
 Stop and remove containers :
 
-    ldap stop ldap-service
-    ldap stop phpldapadmin-service
+    docker stop ldap-service
+    docker stop phpldapadmin-service
 
-    ldap rm ldap-service
-    ldap rm phpldapadmin-service
+    docker rm ldap-service
+    docker rm phpldapadmin-service
