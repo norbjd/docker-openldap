@@ -1,6 +1,8 @@
 # OpenLDAP on Docker
 
-Based on [osixia:openldap](https://github.com/osixia/docker-openldap), thanks for his work.
+Based on [osixia:openldap](https://github.com/osixia/docker-openldap), thanks for its work.
+
+Initialize an OpenLDAP Docker container with test data.
 
 ## LDAP STARTUP
 
