@@ -1,0 +1,58 @@
+dn: ou=groups,dc=example,dc=org
+ou: groups
+objectClass: organizationalUnit
+objectClass: top
+
+dn: cn=admin,ou=groups,dc=example,dc=org
+cn: admin
+gidNumber: 500
+objectClass: posixGroup
+objectClass: top
+
+dn: cn=users,ou=groups,dc=example,dc=org
+cn: users
+gidNumber: 501
+objectClass: posixGroup
+objectClass: top
+
+dn: ou=users,dc=example,dc=org
+ou: users
+objectClass: organizationalUnit
+objectClass: top
+
+dn: cn=John Smith,ou=users,dc=example,dc=org
+givenName: John
+sn: Smith
+cn: John Smith
+uid: jsmith
+uidNumber: 1000
+gidNumber: 501
+homeDirectory: /home/users/jsmith
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: top
+userPassword:: dG90bw==
+
+dn: cn=Mary Stuart,ou=users,dc=example,dc=org
+givenName: Mary
+sn: Stuart
+cn: Mary Stuart
+uid: mstuart
+uidNumber: 1001
+gidNumber: 501
+homeDirectory: /home/users/mstuart
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: top
+
+dn: cn=God,ou=users,dc=example,dc=org
+sn: God
+cn:: IEdvZA==
+uid: god
+uidNumber: 1002
+gidNumber: 500
+homeDirectory: /home/users/god
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: top
+
