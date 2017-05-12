@@ -1,8 +1,8 @@
-% OpenLDAP on Docker
+# OpenLDAP on Docker
 
-Based on [osixia:openldap](https://github.com/osixia/docker-openldap).
+Based on [osixia:openldap](https://github.com/osixia/docker-openldap), thanks for his work.
 
-# LDAP STARTUP
+## LDAP STARTUP
 
 Launch OpenLDAP container :
 
@@ -29,7 +29,7 @@ Credentials for administration (phpLDAPadmin) :
 |----------------------------|----------|
 | cn=admin,dc=example,dc=org | admin    |
 
-# BASH COMMANDS
+## BASH COMMANDS
 
 Aliases :
 
@@ -54,7 +54,7 @@ Search in OpenLDAP :
     # -b : base DN for search
     ldapsearch -b dc=example,dc=org
 
-# LDAP SHUTDOWN
+## LDAP SHUTDOWN
 
 Stop and remove containers :
 
